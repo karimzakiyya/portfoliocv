@@ -1,0 +1,140 @@
+body{
+    background-color:#e5e5e5;
+}
+
+.white_bg{
+    background-color: white;
+    width: 100%;
+    box-shadow:3px 3px 20px 3px #ccc;
+}
+#typewriter{
+   font-family: 'Lato';
+    font-weight: 900;
+    font-size: 2rem;
+    color: #434949;
+    letter-spacing: 3px;
+}
+#typewriter2{
+   font-family: 'Lato';
+    font-weight: 900;
+    font-size: 2rem;
+    color: #434949;
+    letter-spacing: 3px;
+}
+.and{
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 70px;
+    color: #7AC4A6;
+}
+h1{
+    font-family: 'Lato';
+    font-size: 60px;
+    color: #7AC4A6;
+    font-weight: 700;
+}
+h2{
+     color: #7AC4A6;
+    font-family: 'Lato';
+    font-weight: 700;
+    
+}
+.vl{ 
+  border-left: 6px solid #7AC4A6;
+  height: 110px;
+    padding-left: 10px;
+}
+.vl2{
+     border-left: 1px solid #7AC4A6;
+  height: 110px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+h3{
+    font-size: 22px;
+    font-family: 'Lato';
+    font-weight: 700;
+}
+p{
+    font-size: 15px;
+}
+.card{
+    border: none;
+}
+h3{
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.progress-bar {
+  width: 0;
+  animation: progress 1.5s ease-in-out forwards;
+    background-color: #7AC4A6;
+ 
+  
+  .title {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 0.5s;
+  }
+} 
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} 
+@keyframes show  {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.pill-shape{
+  background-color: #7AC4A6;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  border-radius: 16px;
+  
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #7AC4A6;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.iconss{
+    letter-spacing: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #434949;
+}
+i:hover{
+    color: #7ac4a6;
+}
+.i{
+    text-align: center;
+}
+a{
+    color: #434949;
+}
+
